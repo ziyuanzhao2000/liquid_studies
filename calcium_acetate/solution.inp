@@ -1,0 +1,20 @@
+tolerance 2.0
+
+filetype pdb
+output mixture.pdb
+
+
+structure hoh.pdb 
+  number 10000 
+  inside box 0. 0. 0. 75. 75. 75. 
+end structure
+
+structure na.pdb
+  number 18
+  inside box 0. 0. 0. 75. 75. 75.
+end structure
+
+structure acetate.pdb
+  number 18
+  inside box 0. 0. 0. 75. 75. 75.
+end structure

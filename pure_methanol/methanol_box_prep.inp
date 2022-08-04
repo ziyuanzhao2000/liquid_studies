@@ -1,0 +1,9 @@
+tolerance 2.0
+
+filetype pdb
+output methanol_box.pdb
+
+structure methanol.pdb
+  number 250
+  inside box 0. 0. 0. 28. 28. 28.
+end structure
